@@ -479,7 +479,7 @@ const DetilPasien = ({ id, authorization }) => {
       <div>
         <div className="d-block bg-danger align-top " style={styleSideBarIcon} onClick={toggleSidebarFunc}>
           <div className={styles.cont_sidebar_icon + " d-flex align-items-center  rounded-circle  shadow "} style={{ cursor: "pointer" }}>
-            <img src="http://simpuskesmasjungkat.online/iconFoto/menuSidebar2.png" className="w-50 h-50 mx-auto" />
+            <img src="https://simpuskesmasjungkat.online/iconFoto/menuSidebar2.png" className="w-50 h-50 mx-auto" />
           </div>
         </div>
         <div className="d-block">

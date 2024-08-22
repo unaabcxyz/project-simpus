@@ -222,7 +222,7 @@ const Main = () => {
       <div className="w-100">
         <div className="d-block bg-danger align-top " style={styleSideBarIcon} onClick={toggleSidebarFunc}>
           <div className={styles.cont_sidebar_icon + " d-flex align-items-center  rounded-circle  shadow "} style={{ cursor: "pointer" }}>
-            <img src="http://simpuskesmasjungkat.online/iconFoto/menuSidebar2.png" className="w-50 h-50 mx-auto" />
+            <img src="https://simpuskesmasjungkat.online/iconFoto/menuSidebar2.png" className="w-50 h-50 mx-auto" />
           </div>
         </div>
         <div className="d-block">
@@ -231,12 +231,10 @@ const Main = () => {
           <div className="d-inline-block  align-top" style={styleContainer}>
             <div className="mt-5 border-2 border-success border p-2 ">
               {matches == false ? (<div className="d-inline-block align-top w-25 align-top">
-                <Image src={logoPuskesMas}
-                  width={styleHeader.logo.width + 150}
-                  height={styleHeader.logo.width + 150} />
+                <img src="https://simpuskesmasjungkat.online/iconFoto/logoPuskesmas.png" style={{ width: styleHeader.logo.width + 150 + "px", height: styleHeader.logo.width + 150 + "px", }} />
               </div>) : (<div className="d-inline-block align-top w-100 align-top">
                 <div className="mx-auto" style={{ width: 'fit-content' }}>
-                  <img src="http://simpuskesmasjungkat.online/iconFoto/logoPuskesmas.png" style={{ width: styleHeader.logo.width + 150 + "px", height: styleHeader.logo.width + 150 + "px", }} />
+                  <img src="https://simpuskesmasjungkat.online/iconFoto/logoPuskesmas.png" style={{ width: styleHeader.logo.width + 150 + "px", height: styleHeader.logo.width + 150 + "px", }} />
                 </div>
 
               </div>)}

@@ -140,7 +140,7 @@ const Header = ({ toggleSideBar }) => {
             <div className="d-flex align-items-center h-100">
               <div style={styleHeader.logo} className="ms-auto">
                 {width < 480 && toggleSideBar == true ? (null) : (
-                  <img src="http://simpuskesmasjungkat.online/iconFoto/logoPuskesmas.png" style={{ width: styleHeader.logo.width + "px", height: styleHeader.logo.width + "px", }} />
+                  <img src="https://simpuskesmasjungkat.online/iconFoto/logoPuskesmas.png" style={{ width: styleHeader.logo.width + "px", height: styleHeader.logo.width + "px", }} />
                 )}
               </div>
             </div>
@@ -157,7 +157,7 @@ const Header = ({ toggleSideBar }) => {
                 <p className="my-0 w-100 text-left text-dark fw-bold text-uppercase " style={{ color: "#9BA4B5", fontSize: styleHeader.menu_text.fontSize }}>Layanan</p>
               </div>
               <div className="d-inline-block ms-2 ps-1 " style={{}} onClick={toggleDropDownFunc}>
-                <img src="http://simpuskesmasjungkat.online/iconFoto/arrowMenu.png" style={{ width: styleHeader.box_menu.width + "px", height: styleHeader.box_menu.width + "px", }} />
+                <img src="https://simpuskesmasjungkat.online/iconFoto/arrowMenu.png" style={{ width: styleHeader.box_menu.width + "px", height: styleHeader.box_menu.width + "px", }} />
 
               </div>
             </div>

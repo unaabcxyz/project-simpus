@@ -66,10 +66,10 @@ const Home = () => {
     <div className='vh-100 d-flex align-items-center'>
       <div className='w-75  mx-auto h-50 rounded border border-2 border-success p-3 pt-4 ps-5 '>
         {matches == false ? (<div className="d-inline-block align-top w-25 align-top">
-          <img src="http://simpuskesmasjungkat.online/iconFoto/logoPuskesmas.png" style={{ width: styleHeader.logo.width + 150 + "px", height: styleHeader.logo.width + 150 + "px", }} />
+          <img src="https://simpuskesmasjungkat.online/iconFoto/logoPuskesmas.png" style={{ width: styleHeader.logo.width + 150 + "px", height: styleHeader.logo.width + 150 + "px", }} />
         </div>) : (<div className="d-inline-block align-top w-100 align-top">
           <div className="mx-auto" style={{ width: 'fit-content' }}>
-            <img src="http://simpuskesmasjungkat.online/iconFoto/logoPuskesmas.png" style={{ width: styleHeader.logo.width + 150 + "px", height: styleHeader.logo.width + 150 + "px", }} />
+            <img src="https://simpuskesmasjungkat.online/iconFoto/logoPuskesmas.png" style={{ width: styleHeader.logo.width + 150 + "px", height: styleHeader.logo.width + 150 + "px", }} />
 
           </div>
 
