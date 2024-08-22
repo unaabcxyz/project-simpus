@@ -176,7 +176,7 @@ export default function Home() {
             <h1 className="w-100 text-center text-dark ">Login</h1>
             <div className="f">
               <div className={styles.box_ipt+" ps-2"}>
-                  <label htmlFor="nama-signup" className={"form-label fw-medium text-dark bg-danger"+styles.label_ipt} >Email</label>
+                  <label htmlFor="nama-signup" className={"form-label fw-medium text-dark bg-danger"+styles.label_ipt} >Emails</label>
                   <input type="text" className={styles.el_ipt+" form-control"} id="email" name="email" onChange={onChange}  placeholder="Email" />
                   <p className="mt-2 text-capitalize" style={errorLabelStyle.email}>{errorText.email}</p>
                   <hr/>
